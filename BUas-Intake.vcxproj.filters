@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="surface.cpp">
+      <Filter>template code\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>template code\template</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="flame.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="coalBasic.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="coalBomb.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="fireball.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="coal.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="coalGold.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="explosion.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="sfx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="surface.h">
+      <Filter>template code\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>template code\template</Filter>
+    </ClInclude>
+    <ClInclude Include="mathFunctions.h" />
+    <ClInclude Include="button.h" />
+    <ClInclude Include="flame.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="coalBasic.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="coalBomb.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="fireball.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="coal.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="coalGold.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="sfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="template code">
+      <UniqueIdentifier>{bf32dd6e-4be7-4889-8ac6-49e7ee163c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="template code\surface">
+      <UniqueIdentifier>{4e4a7ef7-16a7-4ce8-b163-cb43821ce852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="template code\template">
+      <UniqueIdentifier>{36bc475f-8835-46a2-a24f-0675fff4fca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities">
+      <UniqueIdentifier>{7041a335-c924-4c92-8d2e-217bdb2ec6b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="_readme.txt">
+      <Filter>template code</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
